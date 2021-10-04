@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Virtual Keyboard</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h2>Virtual Keyboard</h2>
+    <textarea name="text-area" placeholder="TEXT AREA" id="textArea"></textarea>
+    
+    <div id="keyboard">
+        <!-- Prvi Red -->
+        <button type="button" value="1" class="keyboardKeys">1</button>
+        <button type="button" value="2" class="keyboardKeys">2</button>
+        <button type="button" value="3" class="keyboardKeys">3</button>
+        <button type="button" value="4" class="keyboardKeys">4</button>
+        <button type="button" value="5" class="keyboardKeys">5</button>
+        <button type="button" value="6" class="keyboardKeys">6</button>
+        <button type="button" value="7" class="keyboardKeys">7</button>
+        <button type="button" value="8" class="keyboardKeys">8</button>
+        <button type="button" value="9" class="keyboardKeys">9</button>
+        <button type="button" value="0" class="keyboardKeys">0</button>
+        
+        <!-- Drugi red -->
+        <button type="button" value="q" class="keyboardKeys">q</button>
+        <button type="button" value="w" class="keyboardKeys">w</button>
+        <button type="button" value="e" class="keyboardKeys">e</button>
+        <button type="button" value="r" class="keyboardKeys">r</button>
+        <button type="button" value="t" class="keyboardKeys">t</button>
+        <button type="button" value="y" class="keyboardKeys">y</button>
+        <button type="button" value="u" class="keyboardKeys">u</button>
+        <button type="button" value="i" class="keyboardKeys">i</button>
+        <button type="button" value="o" class="keyboardKeys">o</button>
+        <button type="button" value="p" class="keyboardKeys">p</button>
+
+        <!-- Sirina back spacea -->
+        <button type="button" id="backSpaceKey" class="keyboardKeys">Back Space</button>
+
+        <!-- treci red -->
+        <button type="button" value="a" class="keyboardKeys">a</button>
+        <button type="button" value="s" class="keyboardKeys">s</button>
+        <button type="button" value="d" class="keyboardKeys">d</button>
+        <button type="button" value="f" class="keyboardKeys">f</button>
+        <button type="button" value="g" class="keyboardKeys">g</button>
+        <button type="button" value="h" class="keyboardKeys">h</button>
+        <button type="button" value="j" class="keyboardKeys">j</button>
+        <button type="button" value="k" class="keyboardKeys">k</button>
+        <button type="button" value="l" class="keyboardKeys">l</button>
+
+        <!-- 3 red velika s -->
+        <button type="button" id="capsLockKey" class="keyboardKeys">Caps Lock</button>
+
+        <!-- Fourth row -->
+        <button type="button" value="z" class="keyboardKeys">z</button>
+        <button type="button" value="x" class="keyboardKeys">x</button>
+        <button type="button" value="c" class="keyboardKeys">c</button>
+        <button type="button" value="v" class="keyboardKeys">v</button>
+        <button type="button" value="b" class="keyboardKeys">b</button>
+        <button type="button" value="n" class="keyboardKeys">n</button>
+        <button type="button" value="m" class="keyboardKeys">m</button>
+        <button type="button" value="-" class="keyboardKeys">-</button>
+        <button type="button" value="_" class="keyboardKeys">_</button>
+
+        <!-- 3 red -->
+        <button type="button" id="shiftKey" class="keyboardKeys">Shift</button>
+
+        <!-- peti red-->
+        <button type="button" value=" " id="spaceKey" class="keyboardKeys">Space</button>
+        <button type="button" id="okKey" class="keyboardKeys">OK</button>
+    </div> 
+    
+    <button type="submit" id="submitKey" onclick="showAlert()">Submit</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
